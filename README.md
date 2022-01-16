@@ -5,6 +5,9 @@
 
 A JavaScript library that can upload anything you throw at it, optimizes images for faster uploads, and offers a great, accessible, silky smooth user experience.
 
+## About Application.
+- Laravel 8 application with PHP 8 support.
+
 ## Filepond Implementation
 - Laravel application with laravel/breeze installed.
 - Spatie/media-library was also used for image manipulation on server.
