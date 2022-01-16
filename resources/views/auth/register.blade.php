@@ -62,11 +62,14 @@
             @section('scripts')
                 <script>
                     // Register the plugin
-                    // FilePond.registerPlugin(FilePondPluginImageCrop);
-                    
+                    FilePond.registerPlugin(FilePondPluginImageCrop);
+                    FilePond.registerPlugin(FilePondPluginImagePreview);
+                    FilePond.registerPlugin(FilePondPluginImageTransform);
+                    FilePond.registerPlugin(FilePondPluginImageResize);
+
                     // Get a reference to the file input element
                     const inputElement = document.querySelector('input[id="avatar"]');
-        
+                    
                     // Create a FilePond instance
                     const pond = FilePond.create(inputElement);
                     FilePond.setOptions({
@@ -77,7 +80,8 @@
                                 'X-CSRF-TOKEN': '{{ csrf_token() }}'
                             }
                         },
-                        // allowImageCrop: true
+                        allowImageCrop: true,
+                        imageCropAspectRatio: '1:1'
                     });
                 </script>
             @endsection

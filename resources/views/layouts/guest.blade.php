@@ -13,6 +13,7 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link href="https://unpkg.com/filepond@^4/dist/filepond.css" rel="stylesheet" />
+        <link href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css" rel="stylesheet"/>
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
@@ -22,6 +23,9 @@
         </div>
         <script src="https://unpkg.com/filepond@^4/dist/filepond.js"></script>
         <script src="https://unpkg.com/filepond-plugin-image-crop/dist/filepond-plugin-image-crop.js"></script>
+        <script src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+        <script src="https://unpkg.com/filepond-plugin-image-transform/dist/filepond-plugin-image-transform.js"></script>
+        <script src="https://unpkg.com/filepond-plugin-image-resize/dist/filepond-plugin-image-resize.js"></script>
         @yield('scripts')
     </body>
 </html>
