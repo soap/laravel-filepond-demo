@@ -1,9 +1,9 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-
-## About Filepond
+## About ![image](https://user-images.githubusercontent.com/1073690/149667009-ba743699-005c-4027-bf23-44365a4f5ce6.png)
 
 A JavaScript library that can upload anything you throw at it, optimizes images for faster uploads, and offers a great, accessible, silky smooth user experience.
+You can see all information for [Filepond](https://pqina.nl/filepond/).
 
 ## About Application.
 - Laravel 8 application with PHP 8 support.
@@ -16,6 +16,7 @@ A JavaScript library that can upload anything you throw at it, optimizes images 
 - Upon successful registration, temporary file will be moved to media collection 
 
 ## Filepond Features Implemented
+- Drag and drop avatar photo upload.
 - Progress upload with indicator.
 - Image cropping will be implemented.
 
